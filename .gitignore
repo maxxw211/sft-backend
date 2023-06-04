@@ -1,0 +1,10 @@
+.env
+.idea
+
+# mac
+.DS_Store
+**/.DS_Store
+
+# local
+settings.ini
+sft/settings/local.py

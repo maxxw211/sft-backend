@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sft_backend"
+version = "0.1.0"
+description = ""
+authors = ["Maksim  Suprun <maksim.suprun@cogniteq.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.1"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.6"
+djoser = "^2.2.0"
+pre-commit = "^3.3.2"
+ruff = "^0.0.270"
+black = "^23.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+ignore = ["E501"]
